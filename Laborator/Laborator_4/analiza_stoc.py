@@ -52,12 +52,6 @@ elif stoc_final < stoc_minim:
 else:
     print("Stoc suficient")
 
-# if stoc_final == 0:
-#     print("Stoc epuizat")
-# if stoc_final < stoc_minim and stoc_final != 0:
-#     print("Reaprovizionare necesara")
-# else:
-#     print("Stoc suficient")
 
 for iteratie in range(1, 4):
     print("Receptie ", iteratie, ": ")
